@@ -1,0 +1,139 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Courier New','bache';
+}
+
+@font-face {
+    font-family:'bache' ;
+    src: url(Bachelorette.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: aliceblue;
+    background: linear-gradient(rgba(166, 168, 167, 0.973),rgba(59, 53, 50, 0.89))
+    
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    margin:auto;
+    background-image: url(image00001-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho a {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.cabeçalho a:hover {
+    color: rgb(65, 47, 132);
+    transition: 0.3s all;
+}
+
+
+.logo img {
+    height: 65px;
+    background: transparent;
+    color: aliceblue;
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+button {
+    color: aliceblue;
+    background: transparent;
+    border: solid 1px aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: rgb(65, 47, 132);
+    transition: 0.5s all;
+}
+
+.container{
+    align-items: right;
+    padding: 100px 250px 0px 500px;
+
+}
+
+.text h3{
+    color: black;
+    font-size: 20px;
+}
+
+.text h1{
+    color: black;
+    margin-top: 10px;
+}
+
+.text span {
+    color: aliceblue;
+}
+
+.text p {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.redes-sociais {
+    margin-bottom: 10px;
+}
+
+.redes-sociais a {
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+div {
+    min-width: 300px;
+    max-width: 2000px;
+}
+.whats {
+    position: fixed; bottom: 120px; right: 0px; left: 650px; z-index: 9999;
+}
+.whats img {
+    width: 9%;
+}
+
+footer {
+    text-align: center;
+} 
