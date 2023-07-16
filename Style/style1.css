@@ -1,17 +1,10 @@
-* { 
-    margin: 0;
+*{
     padding: 0;
-    box-sizing:border-box;
-    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
     list-style: none;
-    font-family: 'Courier New','bache';
-}
-
-@font-face {
-    font-family:'bache';
-    src: url(Bachelorette.otf) format('opentype');
-    font-weight: normal;
-    font-style: normal;
+    text-decoration: none;
 }
 
 :root {
